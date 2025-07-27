@@ -65,7 +65,7 @@ def get_env_variables():
     }
     # raise error is api key not present
     if not all(env.values()):
-        raise EnvironmentError("Please place API key in .env file.")
+        raise EnvironmentError("Please check your .env file.")
     return env
     
     
